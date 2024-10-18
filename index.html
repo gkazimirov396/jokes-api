@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./main.js" defer></script>
+    <title>Random Jokes</title>
+  </head>
+  <body>
+    <template id="joke-element">
+      <li class="joke">
+        <p class="joke-type"></p>
+        <h3 class="joke-setup"></h3>
+        <h4 class="joke-punchline"></h4>
+      </li>
+    </template>
+
+    <main>
+      <section class="jokes">
+        <h2>Random Jokes</h2>
+
+        <div class="loader"></div>
+
+        <ul class="jokes-list"></ul>
+      </section>
+    </main>
+  </body>
+</html>
